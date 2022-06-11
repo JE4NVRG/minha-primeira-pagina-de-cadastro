@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+.screen {
+    display: flex;
+    heigth: 100vf;
+}
+.leftside {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftside img {
+ max-width: 500%;
+ heigth: auto;
+}
+.rightside {
+    width: 600px;
+    background-color: #999;
+    no-margin: 0 auto;
+    padding:100px;
+}
+.rightside label {
+    display:block;
+    margin-bottom: 20px;
+}
+.rightside input {
+width: 100%;
+    border: 1px solid #999;
+border-radius:3px;
+padding:8px;
+font-size:14px;
+outline:0;
+}
